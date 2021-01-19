@@ -5,7 +5,6 @@ import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class Controller {
@@ -13,7 +12,7 @@ public class Controller {
     private File file;
 
     @FXML
-    void open() throws FileNotFoundException {
+    void open() {
         FileChooser openFile = new FileChooser();
         openFile.getExtensionFilters().addAll(
                 new FileChooser.ExtensionFilter("BMP files (*.bmp)", "*.bmp"),
