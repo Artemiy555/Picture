@@ -1,5 +1,4 @@
 import javafx.fxml.FXML;
-import javafx.scene.image.ImageView;
 import javafx.stage.FileChooser;
 
 import javax.imageio.ImageIO;
